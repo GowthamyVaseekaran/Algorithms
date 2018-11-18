@@ -25,7 +25,7 @@ public class StringPermutations {
      */
     private static void permutation(String perm, String word) {
         if (word.isEmpty()) {
-            System.err.print(perm + word);
+            System.err.printlp(perm + word);
 
         } else {
             for (int i = 0; i &lt; word.length(); i++) {
